@@ -33,7 +33,6 @@ function moveon() {
 
 function debug(msg) {
 	var log = document.getElementById("debuglog");
-	log.atta
 	if(!log) {
 		log = document.createElement("div");
 		log.id = "debuglog";
